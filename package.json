@@ -1,10 +1,30 @@
 {
-  "name": "@yandex-cloud/tsconfig",
+  "name": "@gravity-ui/tsconfig",
   "version": "1.0.0",
-  "description": "Yandex.Cloud TypeScript config for our projects",
+  "description": "Gravity UI TypeScript config for our projects",
+  "keywords": [
+    "typescript",
+    "config"
+  ],
   "license": "MIT",
+  "files": [
+    "tsconfig.json"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yandex-cloud/tsconfig"
+    "url": "https://github.com/gravity-ui/tsconfig"
+  },
+  "bugs": {
+    "url": "https://github.com/gravity-ui/tsconfig/issues"
+  },
+  "homepage": "https://github.com/gravity-ui/tsconfig#readme",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "husky": "8.0.1"
   }
 }
